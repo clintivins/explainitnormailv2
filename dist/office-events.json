@@ -1,1 +1,81 @@
-[]
+[
+  {
+    "id": "evt-10",
+    "at": "2026-09-20T18:48:00.000Z",
+    "type": "idle",
+    "actor": "ceo",
+    "title": "Coffee brewing in the little office"
+  },
+  {
+    "id": "evt-09",
+    "at": "2026-09-20T18:46:00.000Z",
+    "type": "book.live",
+    "actor": "author",
+    "title": "What is the Cloud is live"
+  },
+  {
+    "id": "evt-08",
+    "at": "2026-09-20T18:44:00.000Z",
+    "type": "chat",
+    "actor": "social",
+    "title": "Live on Instagram",
+    "draft": "Live on Instagram",
+    "platform": "instagram"
+  },
+  {
+    "id": "evt-07",
+    "at": "2026-09-20T18:42:00.000Z",
+    "type": "social.posted",
+    "actor": "social",
+    "title": "Posting the Cloud chapter update",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/explainitlikeim/"
+  },
+  {
+    "id": "evt-06",
+    "at": "2026-09-20T18:40:00.000Z",
+    "type": "author.shipped",
+    "actor": "author",
+    "title": "Author shipped Cloud chapter 3"
+  },
+  {
+    "id": "evt-05",
+    "at": "2026-09-20T18:36:00.000Z",
+    "type": "social.queued",
+    "actor": "social",
+    "title": "Queued an Instagram post",
+    "draft": "Big tech ideas. Finally, they make sense.",
+    "platform": "instagram"
+  },
+  {
+    "id": "evt-04",
+    "at": "2026-09-20T18:32:00.000Z",
+    "type": "social.reviewing",
+    "actor": "social",
+    "title": "Reviewing the Cloud chapter post",
+    "platform": "instagram"
+  },
+  {
+    "id": "evt-03",
+    "at": "2026-09-20T18:28:00.000Z",
+    "type": "ceo.note",
+    "actor": "ceo",
+    "title": "Tighten the opening",
+    "draft": "Tighten the opening — get to the plain English faster."
+  },
+  {
+    "id": "evt-02",
+    "at": "2026-09-20T18:22:00.000Z",
+    "type": "author.writing",
+    "actor": "author",
+    "title": "Drafting Cloud chapter 3…",
+    "draft": "Cloud chapter 3… the cloud is just someone else’s computer — but that’s only the start."
+  },
+  {
+    "id": "evt-01",
+    "at": "2026-09-20T18:10:00.000Z",
+    "type": "idle",
+    "actor": "author",
+    "title": "Author sat down at the desk"
+  }
+]
