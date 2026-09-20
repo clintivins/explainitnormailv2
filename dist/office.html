@@ -25,109 +25,40 @@
   </header>
   <main id="main">
     <section class="office-hero wrap">
-      <span class="eyebrow"><i></i> THE LITTLE OFFICE</span>
       <h1>MEET THE TEAM</h1>
-      <div class="title-rule" aria-hidden="true"></div>
-      <p>Live as books get written, reviewed and shipped. Three desks, one job: make big tech ideas make sense.</p>
+      <p>The little office — live as books get written and shipped.</p>
     </section>
     <div class="wrap office-layout">
       <section class="office-frame" aria-labelledby="office-scene-title">
         <h2 id="office-scene-title" class="sr-only">The little office</h2>
         <p class="sr-only">Author, Chief of Staff and Social each have a desk. Their status updates as office events arrive.</p>
-        <div class="office-wall" aria-hidden="true"></div>
-        <div class="office-wall-side" aria-hidden="true"></div>
-        <div class="office-floor" aria-hidden="true"></div>
-        <div class="office-stations">
-          <article class="station" data-actor-station="author" data-state="typing">
-            <div class="status-chip">Drafting…</div>
-            <div class="poster" aria-hidden="true">CLARIFY. TEACH. REPEAT.</div>
-            <div class="lamp" aria-hidden="true"></div>
-            <div class="worker worker-author" aria-hidden="true">
-              <div class="worker-chair"></div>
-              <div class="worker-torso"></div>
-              <div class="worker-arm worker-arm-left"></div>
-              <div class="worker-arm worker-arm-right"></div>
-              <div class="worker-hair"></div>
-              <div class="worker-head"></div>
-            </div>
-            <blockquote class="desk-quote" hidden></blockquote>
-            <div class="desk" aria-hidden="true">
-              <div class="laptop"></div>
-              <div class="book-stack"></div>
-              <div class="mug"></div>
-              <div class="desk-top"></div>
-              <div class="desk-body"></div>
-            </div>
-            <div class="station-label">
-              <strong>Author</strong>
-              <span>Writes and ships the books</span>
-            </div>
-          </article>
-          <article class="station" data-actor-station="ceo" data-state="idle">
-            <div class="status-chip">Idle</div>
-            <div class="poster" aria-hidden="true">GOOD BOOKS BUILD REAL UNDERSTANDING.</div>
-            <div class="worker worker-ceo" aria-hidden="true">
-              <div class="worker-chair"></div>
-              <div class="worker-torso"></div>
-              <div class="worker-arm worker-arm-left"></div>
-              <div class="worker-arm worker-arm-right"></div>
-              <div class="worker-hair"></div>
-              <div class="worker-head"></div>
-              <div class="worker-glasses"></div>
-            </div>
-            <blockquote class="desk-quote" hidden></blockquote>
-            <div class="desk" aria-hidden="true">
-              <div class="laptop"></div>
-              <div class="mug"></div>
-              <div class="desk-top"></div>
-              <div class="desk-body"></div>
-            </div>
-            <div class="station-label">
-              <strong>Chief of Staff</strong>
-              <span>Notes, queues and coordinates</span>
-            </div>
-          </article>
-          <article class="station" data-actor-station="social" data-state="idle">
-            <div class="status-chip">Idle</div>
-            <div class="poster" aria-hidden="true">EXPLAIN IT. SHARE IT. HELP MORE PEOPLE.</div>
-            <div class="plant" aria-hidden="true"></div>
-            <div class="worker worker-social" aria-hidden="true">
-              <div class="worker-chair"></div>
-              <div class="worker-torso"></div>
-              <div class="worker-arm worker-arm-left"></div>
-              <div class="worker-arm worker-arm-right"></div>
-              <div class="worker-hair"></div>
-              <div class="worker-head"></div>
-              <div class="phone"></div>
-            </div>
-            <blockquote class="desk-quote" hidden></blockquote>
-            <div class="desk" aria-hidden="true">
-              <div class="laptop"></div>
-              <div class="desk-top"></div>
-              <div class="desk-body"></div>
-            </div>
-            <div class="ship-box" aria-hidden="true"></div>
-            <div class="station-label">
-              <strong>Social</strong>
-              <span>Reviews, queues and posts</span>
-            </div>
-          </article>
-          <aside class="bookshelf" aria-label="Books on the shelf">
-            <div class="shelf-label">Books on the shelf</div>
-            <div class="shelf-books">
-              <img src="assets/ai.png" alt="AI: Explain It Like I'm Normal">
-              <img src="assets/ai-agents.png" alt="AI Agents: Explain It Like I'm Normal">
-              <img src="assets/bitcoin-crypto.png" alt="Bitcoin and Crypto: Explain It Like I'm Normal">
-              <img src="assets/infrastructure-as-code.jpg" alt="Infrastructure as Code: Explain It Like I'm Normal">
-              <img src="assets/data.png" alt="Your Data: Explain It Like I'm Normal">
-            </div>
-          </aside>
+        <div class="office-art-wrap">
+          <img
+            class="office-art"
+            src="assets/office-room.jpg"
+            width="1280"
+            height="330"
+            alt="Author, Chief of Staff and Social sitting at their desks, with a tidy row of book spines on the shelf."
+          >
+          <div class="office-stations">
+            <article class="station" data-actor-station="author" data-state="typing">
+              <div class="status-chip" data-chip-for="author">Drafting…</div>
+              <blockquote class="desk-quote" hidden></blockquote>
+            </article>
+            <article class="station" data-actor-station="ceo" data-state="idle">
+              <div class="status-chip" data-chip-for="ceo">Reviewing next title</div>
+              <blockquote class="desk-quote" hidden></blockquote>
+            </article>
+            <article class="station" data-actor-station="social" data-state="idle">
+              <div class="status-chip" data-chip-for="social">Posting…</div>
+              <blockquote class="desk-quote" hidden></blockquote>
+            </article>
+          </div>
         </div>
-        <div class="coffee" aria-hidden="true" title="Coffee machine"></div>
-        <div class="office-ticker-bar" aria-label="Latest office activity">
+        <div class="office-ticker-bar office-livebar" aria-label="Latest office activity">
           <div class="live-badge" data-mode="demo">
             <span class="live-dot" aria-hidden="true"></span>
-            <span id="office-mode-label">Demo timeline</span>
+            <span id="office-mode-label">Connecting…</span>
           </div>
           <div id="office-ticker"></div>
         </div>
@@ -135,7 +66,7 @@
       <aside class="office-feed-panel">
         <span class="eyebrow">ACTIVITY</span>
         <h2>WHAT’S HAPPENING</h2>
-        <p class="office-source" id="office-source">Loading the office stream…</p>
+        <p class="office-source" id="office-source">Connecting to the live office feed…</p>
         <ol id="office-feed"></ol>
       </aside>
     </div>
