@@ -1,6 +1,6 @@
 # Explain It Like I'm Normal
 
-A responsive website mockup for Clinton Wesley Ivins' book series, preserving the original logo, book covers and navy, yellow and cyan identity.
+A responsive website for Clinton Wesley Ivins' book series, covering health, wealth, motivation, technology and AI in plain English.
 
 ## Run locally
 
@@ -14,19 +14,18 @@ Open http://localhost:8000 in your browser.
 
 ## Files
 
-- `dist/index.html` — homepage content and video player.
+- `dist/index.html` — homepage, newest guide, YouTube feature and book catalogue.
 - `dist/style.css` — responsive layout and brand styling.
-- `dist/film.js` — video playback, replay and reduced-motion handling.
 - `dist/office.js` — live Little Office UI state mapping, polling and optional SSE.
 - `dist/office-events.json` — static local event store (newest-first, max 40 entries).
-- `dist/assets/` — original logo, seven book covers, video poster and finished MP4.
+- `dist/assets/` — original logo, book covers, author portrait and supporting artwork.
 - `.openai/hosting.json` — configuration for the existing private Sites preview.
 
-The 20-second film uses illustrated scenes, animated camera moves, transitions, electronic sound effects and an original-logo end card. It is a motion-graphics film, not full character animation. Playback starts muted when the player enters view, unless reduced motion is enabled. Native controls provide pause, sound and fullscreen; a separate button replays the film.
+The homepage uses a modern catalogue layout, a latest-video link for the YouTube channel and reduced-motion-safe cover animation.
 
 ## Little Office live section
 
-The homepage now includes a `#office` section titled "Meet the team — live from the office" with:
+The standalone `dist/office.html` page includes:
 
 - An isometric-style office scene (Author desk, Chief of Staff desk, Social Media desk, coffee machine, parcel pile)
 - A right sidebar social queue
@@ -65,6 +64,4 @@ The client is already prepared to use SSE if available, and falls back to pollin
 
 Serve `dist/` as the public directory on a static website host. No API keys or server-side services are required. Existing book purchase links lead to Amazon, and contact links use email.
 
-Private design preview: https://explain-it-normal-design.chizzman76.chatgpt.site
-
-The original business website is not modified by this repository.
+Live website: https://explainitnormal.co.uk/clint/
