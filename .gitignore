@@ -3,3 +3,7 @@
 .env.*
 node_modules/
 .sites-runtime/
+*.bak*
+*ftp*.py
+.netrc
+*.docx
